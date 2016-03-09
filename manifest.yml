@@ -5,5 +5,5 @@ applications:
   instances: 1
   host: go_example
   path: .
-  domain: run.pivotal.io
+  domain: cfapps.io
   buildpack: https://github.com/cloudfoundry/go-buildpack.git#v1.3.1
