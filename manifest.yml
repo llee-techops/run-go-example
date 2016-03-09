@@ -1,0 +1,9 @@
+---
+applications:
+- name: go_example
+  memory: 128M
+  instances: 1
+  host: go_example
+  path: .
+  domain: run.pivotal.io
+  buildpack: https://github.com/cloudfoundry/go-buildpack.git#v1.3.1
